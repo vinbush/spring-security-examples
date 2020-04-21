@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+security:
+#  user:
+#    password: password
+  ignored:
+  - "*.bundle.*"
+logging:
+  level:
+    org.springframework.security: DEBUG
